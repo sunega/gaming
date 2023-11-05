@@ -1,0 +1,45 @@
+.cardDisplay{
+    padding-top: 60px;
+    display:grid;
+    grid-template-columns: repeat(4,120px);
+    grid-row-gap:2em;
+    grid-column-gap:2em;
+    align-items: center;
+    justify-content: center;
+    margin:40px auto;
+ 
+    
+}
+#container div{
+    width: 90%;
+    height:150px;
+    border:3px solid pink;
+   
+   
+   
+   
+}
+.cardback{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#444cf7 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #444cf7 2px, #e5e5f7 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+
+}  
+#container div:hover{
+    cursor: pointer;
+
+}
+.Won{
+    font-size:10em;
+    display:flex;
+    justify-content:center;
+    height:500px;
+    align-items: center;
+    color:blue;
+    width:500px;
+    margin:0px auto;
+}
+body{
+    background-color: aqua;
+}

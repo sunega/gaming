@@ -1,0 +1,99 @@
+
+
+ 
+ body{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+   
+    background-image: url("image2.jpeg");
+    background-size: cover;
+    background-repeat:no repeat;
+
+}
+body h1{
+    font-size: 70px;
+    font-weight:bold;
+
+}
+.mainContain{
+    position: absolute;
+    box-sizing: border-box;
+    height: 80%;
+    width:850px;
+    background-color: silver;
+    left: 36%;
+    top:15%;
+    
+    
+}
+.cardShow{
+    padding-top: 130px;
+    padding-left: 15px ;
+    display:grid;
+    grid-template-columns: repeat(4,120px);
+    grid-row-gap:1.5em;
+    grid-column-gap:1.5em;
+    align-items: center;
+    justify-content: center;
+    margin:10px; 
+    
+}
+#container div{
+    height: 150px;
+    width: 100%;
+   
+    border:3px solid blue;
+}
+#score{
+    font-size: 60px;
+    margin-top:50px;
+    color:black;
+    
+}
+#timer{
+    font-size: 50px;
+}
+.mainContain h3{
+    font-size: 50px;
+}
+.cardback{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  repeating-linear-gradient(45deg, #444cf7 25%, transparent 25%, transparent 75%, #444cf7 75%, #444cf7), repeating-linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%, #e5e5f7 75%, #444cf7 75%, #444cf7);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+
+}  
+.won{
+    font-size: 45px;;
+}
+ 
+ 
+
+@media (max-width: 480px) {
+    body h1 {
+        font-size: 40px;
+    }
+
+    .outerContain {
+        width: 100%;
+        
+        left: 0;
+    }
+
+    .cardShow {
+        display:grid;
+        grid-template-columns: repeat(4,120px);
+        grid-row-gap:0.3em;
+        grid-column-gap:0.1em;
+        
+    }
+
+    #container div {
+        height: 80px;
+        width:80px;
+
+    }
+}

@@ -1,0 +1,33 @@
+.title{
+    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    padding: 30px 40px;
+    font-size:80px;
+
+    
+
+}
+#pageTransitionButton{
+
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 40px 60px;
+    font-size: 50px;
+    color:color;
+
+}
+
+
+body{
+   
+    background-image: url("image2.jpeg");
+    background-size: cover;
+    background-repeat:no repeat;
+  } 
+ 
